@@ -5,6 +5,6 @@
  * @param {Object} objtwo Object 2
  * @returns {boolean}
  */
-export default function(obj: Object, objtwo: Object) {
+export default function(obj: Object, objtwo: Object): boolean {
   return Object.keys(objtwo).every(key => obj.hasOwnProperty(key) && obj[key] === objtwo[key]);
 }

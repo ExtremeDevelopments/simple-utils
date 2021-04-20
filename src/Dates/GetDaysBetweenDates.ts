@@ -5,7 +5,7 @@
  * @returns {Number} Days between
  */
 
-export default function(dateStart, dateEnd) {
+export default function(dateStart: number, dateEnd: number): number {
   let time = (dateStart - dateEnd) / (1000 * 600 * 24);
 
   return time;
