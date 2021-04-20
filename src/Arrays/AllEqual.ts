@@ -1,7 +1,7 @@
 /**
  * Check wether all elements of an array are equal.
  * @param {Array<any>} arr 
- * @returns {Boolean}
+ * @returns {boolean}
  */
 
 export default function(arr: Array<any>) {
