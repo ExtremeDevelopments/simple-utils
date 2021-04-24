@@ -1,9 +1,9 @@
 /**
  * Check if two dates are identical.
- * @param {Date} dateOne 
- * @param {Date} dateTwo 
+ * @param {Date} dateOne
+ * @param {Date} dateTwo
  */
 
-export default function(dateOne, dateTwo) {
-  return dateOne.toISOString() === dateTwo.toISOString()
+export default function(dateOne: Date, dateTwo: Date) {
+  return dateOne.toTimeString() === dateTwo.toTimeString()
 }

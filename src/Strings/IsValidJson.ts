@@ -1,9 +1,9 @@
 /**
  * Check if a string is a valid JSON.
- * @param {string} str 
+ * @param {string} str
  * @returns {boolean}
  */
-export default function(str) {
+export default function(str: string) {
   try {
     JSON.parse(str)
     return true;
