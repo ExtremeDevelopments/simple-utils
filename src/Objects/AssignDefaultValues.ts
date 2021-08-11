@@ -1,5 +1,5 @@
 /**
- * 
+ * Assigns default values for all properties in an object that are undefined.
  * @param {Object} obj 
  * @param  {...any} defs 
  * @returns default Values
