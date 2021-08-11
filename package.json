@@ -1,6 +1,6 @@
 {
   "name": "simple-utils-extended",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Simple Utilities",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
