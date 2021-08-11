@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./lib/esm",
   },
   "include": ["src"],
   "exclude": ["node_modules"]
